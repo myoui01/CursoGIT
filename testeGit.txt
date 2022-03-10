@@ -1,0 +1,51 @@
+UPAR CÓDIGOS PRÉ-EXISTENTE DO GITHUB
+fork
+copiar code
+git clone (link: shift esquerdo + insert)
+
+CRIAR NOVO REPOSITÓRIO
+criar pasta
+abrir com git bash
+git init
+
+git status (checa status)
+
+git add . (adiciona todos os arquivos) 
+git add <file> (arquivo específico)
+
+SUBIR OS CÓDIGOS
+git commit -m 'message'
+
+DISPONIBILIZAR CÓDIGO NO GITHUB
+git remote add <name> <url>
+git push
+
+(o primeiro comando poderá ser necessário
+para adicionar seu repositório local com 
+o hub de armazenamento)
+
+ATUALIZAR REPOSITÓRIO LOCAL
+git pull
+
+
+BRANCHING
+> Ramificação do código constuído
+
+git branch
+git branch <nova_branch>
+
+> Como deletar uma branch
+git branch -D nomePasta
+
+INFORMAÇÕES
+git log
+git show
+
+
+GIT CHECKOUT
+> Trocando de Branch ou commit
+
+git checkout <branch>
+git checkout -B <nova_branch> (cria e muda de branch
+automaticamente)
+git checkout <commit> <file>
