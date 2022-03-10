@@ -27,7 +27,6 @@ o hub de armazenamento)
 ATUALIZAR REPOSITÓRIO LOCAL
 git pull
 
-
 BRANCHING
 > Ramificação do código constuído
 
@@ -40,7 +39,6 @@ git branch -D nomePasta
 INFORMAÇÕES
 git log
 git show
-
 
 GIT CHECKOUT
 > Trocando de Branch ou commit
